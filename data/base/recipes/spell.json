@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		" C ",
+		"   "
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:command_block"
+		}
+	},
+	"result": {
+		"item": "minecraft:structure_void",
+		"count": 1
+	}
+}
