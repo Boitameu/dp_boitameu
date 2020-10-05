@@ -9,3 +9,7 @@ Reparation table :
 
 Guardian Crystal :
 /give @p zoglin_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["guardian_crystal"]}}
+
+
+Trapped Chest :
+/give @p piglin_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["trapped_chest"]}}
