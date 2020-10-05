@@ -27,6 +27,7 @@ kill @e[type=slime,nbt={Size:0}]
 
 
 execute as @e[type=armor_stand,tag=trapped_chest] at @s run particle minecraft:dolphin ~ ~ ~ 0.5 0.5 0.5 1.5 1 normal
+execute as @e[type=armor_stand,tag=trapped_chest] at @s if block ~ ~ ~ air run kill @s
 
 execute as @e[type=end_crystal,tag=guardian] at @s run execute as @a[distance=0..4.2,gamemode=!spectator,gamemode=!creative] run tp @e[type=slime,tag=guardian] ~ ~10 ~
 execute as @e[type=end_crystal,tag=guardian] at @s run execute as @a[distance=0..4.2,gamemode=!spectator,gamemode=!creative] run summon creeper ~ ~1 ~ {CustomName:"\"Guardian Crystal\"",CustomNameVisible:1,ignited:1,ExplosionRadius:6,Fuse:0}
