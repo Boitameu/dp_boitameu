@@ -23,6 +23,6 @@ execute if score @p repare matches 1 run data modify entity @s[nbt={Item:{id:"mi
 
 execute if score @p repare matches 1 run playsound minecraft:block.anvil.use master @p
 execute if score @p repare matches 1 run playsound minecraft:block.enchantment_table.use master @p
-execute if score @p repare matches 1 run data modify entity @e[type=armor_stand,tag=reparation,limit=1,sort=nearest] ArmorItems set value [{},{},{},{id:"minecraft:air"}]
+execute if score @p repare matches 1 run data modify entity @e[type=armor_stand,tag=ftt_reparation,limit=1,sort=nearest] ArmorItems set value [{},{},{},{id:"minecraft:air"}]
 execute if score @p repare matches 1 run tp @s @p
 execute if score @p repare matches 1 run tellraw @p {"text":"[Table] Fait","color":"gray"}
