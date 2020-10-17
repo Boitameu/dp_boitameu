@@ -4,15 +4,15 @@ Eggs :
 
 
 Reparation table :
-/give @p bat_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["reparation"]}}
+/give @p bat_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["ftt_reparation"]}}
 
 
 Guardian Crystal :
-/give @p zoglin_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["guardian_crystal"]}}
+/give @p zoglin_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["ftt_guardian_crystal"]}}
 
 
 Trapped Chest :
-/give @p piglin_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["trapped_chest"]}}
+/give @p piglin_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,Silent:1,Tags:["ftt_trapped_chest"]}}
 
 
 Ce qu'il y a :
