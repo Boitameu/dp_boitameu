@@ -34,6 +34,7 @@ execute as @e[type=end_crystal,tag=guardian] at @s run execute as @a[distance=0.
 scoreboard players enable @a repare
 
 
+execute as @e[type=item_frame,tag=reparation] at @s positioned ~ ~-1 ~ run particle minecraft:flamme ~ ~ ~ 0.5 0.5 0.5 1.5 1 normal
 execute as @e[type=armor_stand,tag=reparation] at @s if block ~ ~-0.5 ~-0.3 air run kill @s
 execute as @e[type=item_frame,tag=reparation] at @s if block ~ ~-1 ~ air run kill @s
 
