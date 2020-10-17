@@ -34,7 +34,7 @@ execute as @e[type=end_crystal,tag=ftt_guardian] at @s run execute as @a[distanc
 scoreboard players enable @a repare
 
 
-execute as @e[type=item_frame,tag=ftt_reparation] at @s positioned ~ ~-1 ~ run particle minecraft:flamme ~ ~ ~ 0.5 0.5 0.5 1.5 1 normal
+execute as @e[type=item_frame,tag=ftt_reparation] at @s positioned ~ ~-1 ~ run particle minecraft:flame ~ ~ ~ 0.5 0.5 0.5 1.5 1 normal
 execute as @e[type=armor_stand,tag=ftt_reparation] at @s if block ~ ~-0.5 ~-0.3 air run kill @s
 execute as @e[type=item_frame,tag=ftt_reparation] at @s if block ~ ~-1 ~ air run kill @s
 
